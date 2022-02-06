@@ -7,34 +7,65 @@
     <title>Document</title>
 </head>
 <body>
-   <form action="#" method="post" enctype="multipart/form-data"></form> 
-<div>
-    <input type="text" name="username" value="">
-</div>
-<div>
-    <input type="password" name="userpass" value="">
-</div>
-<div>
-    <p><input checked type="radio" name="bear" value="big"> Brown</p>
-    <p><input type="radio" name="bear" value="small"> small</p>
-</div>
-<br>
-<div>
-    <p><input type="radio" name="bear2" value="big"> Brown</p>
-    <p><input checked type="radio" name="bear2" value="small"> small</p>
-</div>
-<br>
-<div>
-    <p><input checked type="checkbox" name="car1" value="yes"> have1?</p>
-    <p><input type="checkbox" name="car2" value="yes"> have2?</p>
-    <p><input type="checkbox" name="car3" value="yes"> have3?</p>
-    <p><input checked type="radio" name="bear2" value="small"> small</p>
-</div>
-<br>
-<div>
-    <p><input type="file" name="foto"</p>
-</div>
+   <form action="#">
+       <div>
+           <p>Name</p>
+           <input placeholder="Username" tabindex="1" name="username" type="text">
+       </div>
+       <div>
+        <p>Password</p>
+        <input placeholder="Password" tabindex="2" name="password" type="text">
+    </div>
+    <div>
+        <p>Phone</p>
+        <input placeholder="UserPhone" tabindex="3" name="UserPhone" type="tel">
+    </div>
+    <div>
+       <p>Sex</p>
+       <div>
+           <input tabindex="4" checked type="radio" name="Sex" value="Male"> Male
+       </div>
+       <div>
+        <input tabindex="4" type="radio" name="Sex" value="Female"> Female
+    </div>
+    <div>
+        <p>Fruit</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="Banana" value="yes"> Banana
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="Orange" value="yes"> Orange
+        </div>
+        <div>
+            <input tabindex="7" disabled type="checkbox" name="Apple" value="yes"> Apple
+        </div>
+    </div>
+    <div>
+      <p>Drinks</p>  
+      <div>
+          <textarea tabindex="8" name="text"></textarea>
+      </div>
+      <div>
+          <p>Photo</p>
+          <input tabindex="9" type="file" name="User Photo">
+      </div>
+      <div>
+          <p>Gay?</p>
+          <select tabindex="10" name="Gay?">
+              <option value="yes">yes</option>
+              <option value="yee">yee</option>
+              <option selected value="Yesx2">Yesx2</option>
+          </select>
+          <div>
+              <p>Send?</p>
+              <button type="submit">Yes</button>
+              <button type="reset">No</button>
 
- 
+          </div>
+      </div>
+    </div>
+    </div>
+   </form>
+
 </body>
 </html>
