@@ -36,13 +36,14 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400 ;}
 
 .example-block{
-    max-width: 500px;
-   border: 1px solid #000;
+    border: 10px dashed black ;
+   font-size: 50PX;
+   margin: 0 0 30px 0;
 }
 .example-string{
- width: 500px;
+ font-size: 50px;
 }
 .example-image{
-    width: 100%;
+border: 10px dashed;
     max-width: 500px;
 }
