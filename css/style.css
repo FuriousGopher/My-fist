@@ -50,6 +50,7 @@ border: 10px dashed;
 }
 body{
     padding: 30px;
+
 }
 .block{
    /* Old browsers */
@@ -63,4 +64,10 @@ background: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 
  height: 300px;
  border-radius: 15px;
  box-shadow: 0 0 10px black;   
+}
+.block1{
+    
+height: 300px;
+border-radius: 15px;
+box-shadow: 0 0 10px red;
 }
