@@ -35,49 +35,50 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400 ;}
 
-.example-block{
-    border: 10px dashed black ;
-    border-radius: 20px;
-   font-size: 50PX;
-
-}
-.example-string{
- font-size: 50px;
-}
-.example-image{
-border: 10px dashed;
-    max-width: 500px;
-}
 body{
     padding: 30px;
     background-color: aquamarine;
-
-
 }
+
 .block{
-   /* Old browsers */
-background: rgb(236,232,157);
-/* FF3.6-15 */
-background: -moz-linear-gradient(top, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
-/* Chrome10-25,Safari5.1-6 */
-background: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
-/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-background: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);
- height: 300px;
- border-radius: 15px;
- box-shadow: 0 0 10px black;   
+    margin: 0 0 30px 0;
 }
-.block1{
-    background: url("../img/IMG-5309.JPG") 0 0/contain no-repeat;
-    background-color: whitesmoke; 
-height: 300px;
-border-radius: 15px;
-box-shadow: 0 0 10px red;
+.block p{
+    font-size: 18px;
+    line-height: 24px;
+    margin:0px 0px 20px 0px ;
 }
-.block2{
-   background: url("../img/unnamed.jpg") center no-repeat fixed; 
+.link{
+    color: red;
 
-    height: 300px;
-border-radius: 15px;
-box-shadow: 0 0 10px rgb(89, 0, 255);
+}
+.link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.textinput{
+    border: 1px solid red;
+    height: 50px;
+    padding: -0 15px;
+    font-size: 18px;
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+}
+
+.button{
+    display: block;
+    width:300px;
+    height: 50px;
+    background-color: blue;
+    font-size: 18px;   
+    color: pink;
+    text-transform: uppercase;
+    margin:0px 0px 30px 0px ;
+}
+
+.list{}
+.list li{
+    font-size: 18px;
+    margin: 0px 0px 15px 0px;
 }
