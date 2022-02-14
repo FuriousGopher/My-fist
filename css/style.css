@@ -56,6 +56,9 @@ body{
     text-decoration: underline;
     color: blue;
 }
+.link:active{
+    color: yellow;
+}
 
 .textinput{
     border: 1px solid red;
