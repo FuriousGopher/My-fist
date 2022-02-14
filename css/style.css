@@ -68,6 +68,9 @@ body{
     width: 300px;
     margin: 0px 0px 10px 0px;
 }
+.textinput:focus{
+    box-shadow: 0 0 10px rgb(7, 43, 7);
+}
 
 .button{
     display: block;
@@ -84,4 +87,14 @@ body{
 .list li{
     font-size: 18px;
     margin: 0px 0px 15px 0px;
+}
+
+.list li:first-child{
+    color: blue;
+}
+.list li:last-child{
+    color: indianred;
+}
+.list li:nth-child(odd){
+    text-transform: uppercase;
 }
