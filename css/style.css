@@ -39,66 +39,21 @@ body{
     padding: 30px;
     background-color: aquamarine;
 }
-
-.block{
-    margin: 0 0 30px 0;
+.text{
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0px 0px 30px 0px;
 }
-.block p{
-    font-size: 18px;
-    line-height: 24px;
-    margin:0px 0px 20px 0px ;
-}
-.link{
-    color: red;
-
-}
-.link:hover{
-    text-decoration: underline;
-    color: blue;
-}
-.link:active{
-    color: yellow;
+.text::first-line{
+    
 }
 
-.textinput{
-    border: 1px solid red;
-    height: 50px;
-    padding: -0 15px;
-    font-size: 18px;
-    width: 300px;
-    margin: 0px 0px 10px 0px;
-}
-.textinput:focus{
-    box-shadow: 0 0 10px rgb(7, 43, 7);
+.list{
+
 }
 
-.button{
-    display: block;
-    width:300px;
-    height: 50px;
-    background-color: blue;
-    font-size: 18px;   
-    color: pink;
-    text-transform: uppercase;
-    margin:0px 0px 30px 0px ;
-}
-.button{
-    background-color: red;
-    color: blue;
-}
 
-.list{}
 .list li{
-    font-size: 18px;
-    margin: 0px 0px 15px 0px;
-}
-
-.list li:first-child{
-    color: blue;
-}
-.list li:last-child{
-    color: indianred;
-}
-.list li:nth-child(odd){
-    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0px 0px 20px 0px;
 }
